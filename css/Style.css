@@ -39,8 +39,8 @@ section {
 .btn {
   margin-top: 1rem;
   display: inline-block;
-  border: 0.2rem solid #10221b;
-  color: #10221b;
+  border: 0.2rem solid #036aa7;
+  color: black;
   cursor: pointer;
   background: none;
   font-size: 1.7rem;
@@ -48,7 +48,7 @@ section {
 }
 
 .btn:hover {
-  background: #10221b;
+  background: #0079bd;
   color: #fff;
 }
 
@@ -56,7 +56,7 @@ section {
   text-align: center;
   margin-bottom: 2.5rem;
   font-size: 4rem;
-  color: #10221b;
+  color: #036aa7;
 }
 
 .header {
@@ -80,6 +80,10 @@ section {
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
+.header .Brizido{
+  width: 35%;
+  
+}
 .header .logo {
   margin-right: auto;
   font-size: 2.5rem;
@@ -212,9 +216,27 @@ section {
   color: #219150;
 }
 
+.teste-slide{
+  background-color: rgba(0, 0, 0, 0.466);
+}
+.btn-slide {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid #036aa7;
+  color: white;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+.btn-slide:hover {
+  background: #0079bd;
+  color: #fff;
+}
 .home {
   padding: 0;
 }
+
 
 .home .box {
   min-height: 100vh;
@@ -244,19 +266,19 @@ section {
 
 .home .box .content span {
   font-size: 4rem;
-  color: #10221b;
+  color: #0079bd;
 }
 
 .home .box .content h3 {
   font-size: 6rem;
-  color: #219150;
+  color: #0079bd;
   padding-top: .5rem;
   text-transform: uppercase;
 }
 
 .home .box .content p {
   line-height: 2;
-  color: #10221b;
+  color: white;
   font-size: 1.5rem;
   padding: 1rem 0;
 }
@@ -264,7 +286,7 @@ section {
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 3rem;
-  color: #10221b;
+  color: #0079bd;
 }
 
 .sobre .box-container {
@@ -289,7 +311,7 @@ section {
 
 .sobre .box-container .box h3 {
   font-size: 2rem;
-  color: #219150;
+  color: #0079bd;
 }
 
 .sobre .box-container .box p {
@@ -334,12 +356,12 @@ section {
 
 .historia .content h3 {
   font-size: 3rem;
-  color: #219150;
+  color: #0079bd;
 }
 
 .historia .content p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: black;
   padding: 1rem 0;
   line-height: 2;
 }
@@ -429,14 +451,14 @@ section {
 .aulas .box-container .box {
   text-align: center;
   background: #fff;
-  border: 0.2rem solid #10221b;
+  border: 0.2rem solid #02588a;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: .5rem;
 }
 
 .aulas .box-container .box:hover {
-  background: #10221b;
+  background: #036aa7;
 }
 
 .aulas .box-container .box:hover .content > * {
@@ -449,7 +471,7 @@ section {
 
 .aulas .box-container .box:hover .btn:hover {
   background: #fff;
-  color: #10221b;
+  color: black;
 }
 
 .aulas .box-container .box .image {
@@ -474,12 +496,12 @@ section {
 
 .aulas .box-container .box .content h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: black;
 }
 
 .aulas .box-container .box .content p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: black;
   padding: 1rem 0;
   line-height: 2;
 }
