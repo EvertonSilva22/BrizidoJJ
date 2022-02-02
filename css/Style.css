@@ -757,12 +757,12 @@ section {
 }
 
 .footer .box-container .box a i {
-  color: #219150;
+  color: #036aa7;
   padding-right: .5rem;
 }
 
 .footer .box-container .box a:hover {
-  color: #219150;
+  color: #02588a;
 }
 
 .footer .box-container .box a:hover i {
@@ -779,7 +779,7 @@ section {
 }
 
 .footer .credit span {
-  color: #219150;
+  color: black;
 }
 
 @media (max-width: 1200px) {
