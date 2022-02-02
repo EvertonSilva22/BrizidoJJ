@@ -636,7 +636,7 @@ section {
 }
 
 .blogs .slide .icons {
-  background: #10221b;
+  background: #036aa7;
   border-radius: .5rem;
   padding: 1rem;
   position: relative;
@@ -651,24 +651,24 @@ section {
 }
 
 .blogs .slide .icons a:hover {
-  color: #219150;
+  color: black;
 }
 
 .blogs .slide .icons a i {
   padding-right: .5rem;
-  color: #219150;
+  color: black;
 }
 
 .blogs .slide h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: black;
 }
 
 .blogs .slide p {
   font-size: 1.4rem;
   padding: 1rem 0;
   line-height: 2;
-  color: #10221b;
+  color: black;
 }
 
 .newsletter {
